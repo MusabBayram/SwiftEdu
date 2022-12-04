@@ -15,7 +15,15 @@ class ViewController: UIViewController {
 
     @IBAction func logIn(_ sender: Any) {
         userName = name.text!
-        if(password.text != passwordAgain.text){
+        if(name.text == "" || password.text == ""){
+            let alert = UIAlertController(title: "Error", message: "Kullanıcı Adı veya Password Boş bırakılamaz", preferredStyle: UIAlertController.Style.alert)
+            let okButton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) {(UIAlertAction) in
+                print("clicked")
+            }
+            alert.addAction(okButton)
+            self.present(alert, animated: true)
+        }
+        else if(password.text != passwordAgain.text){
             let alert = UIAlertController(title: "Error", message: "Parolalar Uyuşmuyor", preferredStyle: UIAlertController.Style.alert)
             let okButton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) {(UIAlertAction) in
                 print("clicked")
