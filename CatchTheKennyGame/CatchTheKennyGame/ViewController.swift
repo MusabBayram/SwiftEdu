@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var score = 0
+    var highScore = 0
     var timer = Timer()
     var hideTimer = Timer()
     var counter = 0
@@ -100,6 +101,12 @@ class ViewController: UIViewController {
             
             for kenny in kennyArray {
                 kenny.isHidden = true
+            }
+            
+            if self.score > self.highScore {
+                self.highScore = self.score
+                self.highscoreLabel.text = "Highscore: \(self.highScore)"
+                UserDefaults.standard.set(self.highScore, forKey: "highscore")
             }
             
             let alert = UIAlertController(title: "Time's Up", message: "Do You Want To Play Again?", preferredStyle: UIAlertController.Style.alert)
