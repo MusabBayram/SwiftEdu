@@ -65,6 +65,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             destinationVC.selectedLandmarkImage = chosenLandmarkImage
         }
     }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            self.landmarkNames.remove(at: indexPath.row)
+            self.landmarkImages.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
+    }
 
 }
 
