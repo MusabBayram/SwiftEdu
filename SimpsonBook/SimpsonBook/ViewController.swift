@@ -49,9 +49,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetailsVC" {
             let destinationVC = segue.destination as! DetailsVC
-            destinationVC.NameLabel.text = selectedSimpsonName
-            destinationVC.JobNameLabel.text = selectedSimpsonJob
-            destinationVC.ImageView.image = selectedSimpsonImage
+            destinationVC.selectedName = selectedSimpsonName
+            destinationVC.selectedJobName = selectedSimpsonJob
+            destinationVC.selectedImage = selectedSimpsonImage
         }
     }
 
