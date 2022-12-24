@@ -15,9 +15,16 @@ class DetailsVC: UIViewController {
     
     @IBOutlet weak var JobNameLabel: UILabel!
     
+    var selectedImage = UIImage()
+    var selectedName = ""
+    var selectedJobName = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        ImageView.image = selectedImage
+        NameLabel.text = selectedName
+        JobNameLabel.text = selectedJobName
     
     }
     

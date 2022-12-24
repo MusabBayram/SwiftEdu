@@ -1,18 +1,15 @@
-//
-//  ViewController.swift
-//  SimpsonBook
-//
-//  Created by Musab Bahadır Bayram on 24.12.2022.
-//
-
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var TableView: UITableView!
     
-    var simpsonNames = [String]()
     
+    var simpsonArray = [Simpson]()
+    
+    var selectedSimpsonName = ""
+    var selectedSimpsonJob = ""
+    var selectedSimpsonImage = UIImage()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,20 +22,37 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let bart = Simpson(name: "Bart Simpson", job: "Student", image: UIImage(named: "bart")!)
         let lisa = Simpson(name: "Lisa Simpson", job: "Student", image: UIImage(named: "lisa")!)
         
-        let simpsonArray = [hommer, marge, bart, lisa]
+        simpsonArray = [hommer, marge, bart, lisa]
         
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return simpsonNames.count
+        return simpsonArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         var content = cell.defaultContentConfiguration()
-        
+        content.text = simpsonArray[indexPath.row].name
         cell.contentConfiguration = content
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedSimpsonName = simpsonArray[indexPath.row].name
+        selectedSimpsonJob = simpsonArray[indexPath.row].job
+        selectedSimpsonImage = simpsonArray[indexPath.row].image
+        performSegue(withIdentifier: "showDetailsVC", sender: nil)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetailsVC" {
+            let destinationVC = segue.destination as! DetailsVC
+            destinationVC.NameLabel.text = selectedSimpsonName
+            destinationVC.JobNameLabel.text = selectedSimpsonJob
+            destinationVC.ImageView.image = selectedSimpsonImage
+        }
     }
 
 }
