@@ -13,6 +13,7 @@
 		D666940F2956E166003FCFC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D666940D2956E166003FCFC3 /* Main.storyboard */; };
 		D66694112956E167003FCFC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66694102956E167003FCFC3 /* Assets.xcassets */; };
 		D66694142956E167003FCFC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66694122956E167003FCFC3 /* LaunchScreen.storyboard */; };
+		D666941C2956E239003FCFC3 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666941B2956E239003FCFC3 /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D66694102956E167003FCFC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D66694132956E167003FCFC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D66694152956E167003FCFC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D666941B2956E239003FCFC3 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D66694072956E166003FCFC3 /* AppDelegate.swift */,
 				D66694092956E166003FCFC3 /* SceneDelegate.swift */,
 				D666940B2956E166003FCFC3 /* ViewController.swift */,
+				D666941B2956E239003FCFC3 /* DetailsVC.swift */,
 				D666940D2956E166003FCFC3 /* Main.storyboard */,
 				D66694102956E167003FCFC3 /* Assets.xcassets */,
 				D66694122956E167003FCFC3 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D666940C2956E166003FCFC3 /* ViewController.swift in Sources */,
+				D666941C2956E239003FCFC3 /* DetailsVC.swift in Sources */,
 				D66694082956E166003FCFC3 /* AppDelegate.swift in Sources */,
 				D666940A2956E166003FCFC3 /* SceneDelegate.swift in Sources */,
 			);
