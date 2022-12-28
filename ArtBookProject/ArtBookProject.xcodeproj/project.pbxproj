@@ -15,6 +15,7 @@
 		D641E843295A1D0D002EFAFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D641E842295A1D0D002EFAFC /* Assets.xcassets */; };
 		D641E846295A1D0D002EFAFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D641E844295A1D0D002EFAFC /* LaunchScreen.storyboard */; };
 		D641E84E295A208E002EFAFC /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D641E84D295A208E002EFAFC /* DetailsVC.swift */; };
+		D659F486295CC232003B1A84 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = D659F485295CC232003B1A84 /* select.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D641E845295A1D0D002EFAFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D641E847295A1D0D002EFAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D641E84D295A208E002EFAFC /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		D659F485295CC232003B1A84 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = select.png; path = ../../../../Downloads/select.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				D641E844295A1D0D002EFAFC /* LaunchScreen.storyboard */,
 				D641E847295A1D0D002EFAFC /* Info.plist */,
 				D641E83F295A1D0C002EFAFC /* ArtBookProject.xcdatamodeld */,
+				D659F485295CC232003B1A84 /* select.png */,
 			);
 			path = ArtBookProject;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D641E846295A1D0D002EFAFC /* LaunchScreen.storyboard in Resources */,
+				D659F486295CC232003B1A84 /* select.png in Resources */,
 				D641E843295A1D0D002EFAFC /* Assets.xcassets in Resources */,
 				D641E83E295A1D0C002EFAFC /* Main.storyboard in Resources */,
 			);
