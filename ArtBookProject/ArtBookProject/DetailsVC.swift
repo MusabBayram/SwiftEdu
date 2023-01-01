@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 class DetailsVC: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
 
@@ -47,6 +48,14 @@ class DetailsVC: UIViewController, UIImagePickerControllerDelegate & UINavigatio
     }
     
     @IBAction func saveButtonClicked(_ sender: Any) {
+        
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let contex = appDelegate.persistentContainer.viewContext
+        
+        
+        let newPainting = NSEntityDescription.insertNewObject(forEntityName: "Paintings", into: contex)
+        
+        
     }
     
 }
