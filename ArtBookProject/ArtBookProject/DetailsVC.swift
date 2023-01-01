@@ -55,6 +55,19 @@ class DetailsVC: UIViewController, UIImagePickerControllerDelegate & UINavigatio
         
         let newPainting = NSEntityDescription.insertNewObject(forEntityName: "Paintings", into: contex)
         
+        //Attributes
+        
+        newPainting.setValue(nameText.text, forKey: "name")
+        newPainting.setValue(artistText, forKey: "artist")
+        
+        if let year = Int(yearText.text) {
+            newPainting.setValue(year, forKey: "year")
+        }
+        
+        newPainting.setValue(UUID(), forKey: "id")
+        
+        let data = imageView.image!.jpegData(compressionQuality: 0.5)
+        
         
     }
     
