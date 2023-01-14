@@ -32,6 +32,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="nkB-DB-1mo"/>
                     <connections>
+                        <outlet property="tableView" destination="6PZ-C1-RsS" id="ef0-mP-63q"/>
                         <segue destination="p4a-Pa-rEY" kind="show" identifier="toDetailsVC" id="UF5-Ng-UCf"/>
                     </connections>
                 </viewController>
@@ -43,7 +44,7 @@
         <scene sceneID="tVl-BW-A7i">
             <objects>
                 <viewController id="p4a-Pa-rEY" customClass="DetailsVC" customModule="ArtBookProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8Ta-Ou-NKT">
+                    <view key="view" contentMode="scaleToFill" id="8Ta-Ou-NKT">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>

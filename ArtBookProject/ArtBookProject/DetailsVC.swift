@@ -77,6 +77,8 @@ class DetailsVC: UIViewController, UIImagePickerControllerDelegate & UINavigatio
             print("error")
         }
         
+        NotificationCenter.default.post(name: NSNotification.Name("newData"), object: nil)
+        self.navigationController?.popViewController(animated: true)
         
     }
     
