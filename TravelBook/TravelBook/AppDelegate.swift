@@ -2,13 +2,14 @@
 //  AppDelegate.swift
 //  TravelBook
 //
-//  Created by Musab Bahadır Bayram on 6.02.2023.
+//  Created by Atil Samancioglu on 27.07.2019.
+//  Copyright © 2019 Atil Samancioglu. All rights reserved.
 //
 
 import UIKit
 import CoreData
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
