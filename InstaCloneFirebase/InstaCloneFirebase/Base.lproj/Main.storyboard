@@ -80,8 +80,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NT3-Sp-BUo">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NT3-Sp-BUo">
                                 <rect key="frame" x="130" y="534" width="133" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="diw-Vr-ui5"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Upload"/>
                                 <connections>
@@ -98,12 +101,14 @@
                         <viewLayoutGuide key="safeArea" id="g8z-da-DB5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="0aS-C5-Aw7" firstAttribute="centerX" secondItem="NT3-Sp-BUo" secondAttribute="centerX" id="3Cd-y5-hfR"/>
+                            <constraint firstItem="NT3-Sp-BUo" firstAttribute="leading" secondItem="g8z-da-DB5" secondAttribute="leading" constant="130" id="56e-i6-csK"/>
                             <constraint firstItem="0aS-C5-Aw7" firstAttribute="leading" secondItem="7w8-ql-MN2" secondAttribute="leading" id="LX8-QA-QYW"/>
                             <constraint firstItem="0aS-C5-Aw7" firstAttribute="top" secondItem="g8z-da-DB5" secondAttribute="top" constant="50" id="Pp6-GY-O2O"/>
                             <constraint firstItem="0aS-C5-Aw7" firstAttribute="trailing" secondItem="7w8-ql-MN2" secondAttribute="trailing" id="ZIQ-dW-knT"/>
                             <constraint firstItem="0aS-C5-Aw7" firstAttribute="leading" secondItem="g8z-da-DB5" secondAttribute="leading" constant="56" id="a4y-GT-PKa"/>
                             <constraint firstItem="0aS-C5-Aw7" firstAttribute="centerX" secondItem="eXw-9I-j1I" secondAttribute="centerX" id="bTf-Rd-ld4"/>
+                            <constraint firstItem="NT3-Sp-BUo" firstAttribute="top" secondItem="7w8-ql-MN2" secondAttribute="bottom" constant="52" id="g3F-iS-pYa"/>
+                            <constraint firstItem="NT3-Sp-BUo" firstAttribute="centerX" secondItem="7w8-ql-MN2" secondAttribute="centerX" id="hCy-ay-Cxi"/>
                             <constraint firstItem="7w8-ql-MN2" firstAttribute="top" secondItem="0aS-C5-Aw7" secondAttribute="bottom" constant="63" id="tkd-7h-qCx"/>
                         </constraints>
                     </view>
