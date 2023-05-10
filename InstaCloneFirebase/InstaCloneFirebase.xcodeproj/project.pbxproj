@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		46B4BE7F41FBC946332B4A82 /* Pods_InstaCloneFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7D1D215A8C4A3D77D900D2 /* Pods_InstaCloneFirebase.framework */; };
+		D67863452A0BE290001DEBB7 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67863442A0BE290001DEBB7 /* FeedCell.swift */; };
 		D69FDCE329C88A7600641436 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69FDCE229C88A7600641436 /* AppDelegate.swift */; };
 		D69FDCE529C88A7600641436 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69FDCE429C88A7600641436 /* SceneDelegate.swift */; };
 		D69FDCE729C88A7600641436 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69FDCE629C88A7600641436 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		4EA9879BAF18788F5D0CA5A1 /* Pods-InstaCloneFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCloneFirebase.release.xcconfig"; path = "Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		79DE3EE91EE6C8B7DC21AD89 /* Pods-InstaCloneFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCloneFirebase.debug.xcconfig"; path = "Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		D67863442A0BE290001DEBB7 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		D69FDCDF29C88A7600641436 /* InstaCloneFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCloneFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69FDCE229C88A7600641436 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D69FDCE429C88A7600641436 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				D6ADD85B29D1DF1A007F96D3 /* FeedViewController.swift */,
 				D6ADD85D29D1DF38007F96D3 /* UploadViewController.swift */,
 				D6ADD85F29D1DF4D007F96D3 /* SettingsViewController.swift */,
+				D67863442A0BE290001DEBB7 /* FeedCell.swift */,
 				D69FDCE829C88A7600641436 /* Main.storyboard */,
 				D69FDCEB29C88A7700641436 /* Assets.xcassets */,
 				D69FDCED29C88A7700641436 /* LaunchScreen.storyboard */,
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D67863452A0BE290001DEBB7 /* FeedCell.swift in Sources */,
 				D69FDCE729C88A7600641436 /* ViewController.swift in Sources */,
 				D6ADD85E29D1DF38007F96D3 /* UploadViewController.swift in Sources */,
 				D69FDCE329C88A7600641436 /* AppDelegate.swift in Sources */,
