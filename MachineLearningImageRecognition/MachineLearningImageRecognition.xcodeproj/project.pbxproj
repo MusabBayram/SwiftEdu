@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D611A6AA2A56F3DC007D9605 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D611A6A92A56F3DC007D9605 /* MobileNetV2.mlmodel */; };
 		D68A08672A555DE400A7E8B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68A08662A555DE400A7E8B5 /* AppDelegate.swift */; };
 		D68A08692A555DE400A7E8B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68A08682A555DE400A7E8B5 /* SceneDelegate.swift */; };
 		D68A086B2A555DE400A7E8B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68A086A2A555DE400A7E8B5 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D611A6A92A56F3DC007D9605 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		D68A08632A555DE400A7E8B5 /* MachineLearningImageRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachineLearningImageRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68A08662A555DE400A7E8B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D68A08682A555DE400A7E8B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				D68A086F2A555DE500A7E8B5 /* Assets.xcassets */,
 				D68A08712A555DE500A7E8B5 /* LaunchScreen.storyboard */,
 				D68A08742A555DE500A7E8B5 /* Info.plist */,
+				D611A6A92A56F3DC007D9605 /* MobileNetV2.mlmodel */,
 			);
 			path = MachineLearningImageRecognition;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				D68A086B2A555DE400A7E8B5 /* ViewController.swift in Sources */,
 				D68A08672A555DE400A7E8B5 /* AppDelegate.swift in Sources */,
+				D611A6AA2A56F3DC007D9605 /* MobileNetV2.mlmodel in Sources */,
 				D68A08692A555DE400A7E8B5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
