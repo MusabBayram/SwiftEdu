@@ -31,7 +31,7 @@ class GameScene: SKScene {
         let birdTexture = SKTexture(imageNamed: "bird")
         
         bird.physicsBody = SKPhysicsBody(circleOfRadius: birdTexture.size().height/13)
-        bird.physicsBody?.affectedByGravity = true
+        bird.physicsBody?.affectedByGravity = false
         bird.physicsBody?.isDynamic = true
         bird.physicsBody?.mass = 0.15
         
