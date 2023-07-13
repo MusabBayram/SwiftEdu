@@ -166,6 +166,15 @@ class GameScene: SKScene {
                             
                             if sprite == bird {
                                 
+                                let dx = -(touchLocation.x - originalPos!.x)
+                                let dy = -(touchLocation.y - originalPos!.y)
+                                
+                                let impulse = CGVector(dx: dx, dy: dy)
+                                
+                                bird.physicsBody?.applyImpulse(impulse)
+                                bird.physicsBody?.affectedByGravity = true
+                                
+                                gameStarted = true
                             }
                         }
                     }
