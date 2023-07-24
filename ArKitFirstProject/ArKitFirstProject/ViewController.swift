@@ -16,6 +16,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //A9 Chip -> iPhone 6S +++
+        
         // Set the view's delegate
         sceneView.delegate = self
         
@@ -27,6 +29,21 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Set the scene to the view
         sceneView.scene = shipScene
+        
+        for node in sceneView.scene.rootNode.childNodes {
+            
+            let moveShip = SCNAction.moveBy(x: 1, y: 0.5, z: -0.5, duration: 1)
+            let fadeOut = SCNAction.fadeOpacity(to: 0.5, duration: 1)
+            let fadeIn = SCNAction.fadeOpacity(to: 1, duration: 1)
+            let sequence = SCNAction.sequence([moveShip,fadeOut,fadeIn])
+
+            let repeatForever = SCNAction.repeatForever(sequence)
+            
+            node.runAction(repeatForever)
+            
+        }
+        
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
