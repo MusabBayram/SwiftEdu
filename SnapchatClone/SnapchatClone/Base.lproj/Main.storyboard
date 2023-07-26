@@ -67,14 +67,85 @@
                         <outlet property="emailText" destination="Vle-aI-dfH" id="qPZ-5Y-7YK"/>
                         <outlet property="passwordText" destination="Clk-oZ-Fv0" id="vUk-Fy-31T"/>
                         <outlet property="usernameText" destination="mTD-At-Rm3" id="jNT-Gs-gdu"/>
+                        <segue destination="P1a-9Y-47F" kind="presentation" identifier="toFeedVC" modalPresentationStyle="fullScreen" id="bI6-fx-iqp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="130.53435114503816" y="-34.507042253521128"/>
         </scene>
+        <!--Upload-->
+        <scene sceneID="AOe-Hb-giw">
+            <objects>
+                <viewController id="QVT-5e-gxW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DjE-Fx-gMu" customClass="UploadVC" customModule="SnapchatClone" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="DHb-hi-KsP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Upload" image="u.circle.fill" catalog="system" id="8K5-Me-ReK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NRN-Dg-OSx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2355" y="301"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="dPR-HE-8w0">
+            <objects>
+                <viewController id="l4J-7v-VN4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RI4-BE-cIc" customClass="SettingsVC" customModule="SnapchatClone" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="2VW-hc-g15"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="s.circle.fill" catalog="system" id="Msg-Px-DEg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BBS-bQ-sr4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2360" y="940"/>
+        </scene>
+        <!--Feed-->
+        <scene sceneID="bBm-aM-dle">
+            <objects>
+                <viewController id="UlO-dE-zmz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Em-Uw-Vvg" customClass="FeedVC" customModule="SnapchatClone" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="JET-lV-iTW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Feed" image="f.circle.fill" catalog="system" id="8Ri-kl-3hh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XKc-wR-OHz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2355" y="-337"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="FeR-2I-NOr">
+            <objects>
+                <tabBarController id="P1a-9Y-47F" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fL2-1u-7k3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="UlO-dE-zmz" kind="relationship" relationship="viewControllers" id="RJv-Yx-76E"/>
+                        <segue destination="QVT-5e-gxW" kind="relationship" relationship="viewControllers" id="ToG-tn-tqk"/>
+                        <segue destination="l4J-7v-VN4" kind="relationship" relationship="viewControllers" id="kPt-f7-Ihm"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XOV-Zh-BIK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1298" y="-35"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="f.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="s.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="u.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
