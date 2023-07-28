@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CryptoCurrency {
+struct CryptoCurrency : Decodable {
     
     let currency : String
     let price: String
