@@ -15,6 +15,7 @@
 		D6C1AFE82A73B17A0050659B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C1AFE62A73B17A0050659B /* LaunchScreen.storyboard */; };
 		D6C1AFF02A73B34D0050659B /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C1AFEF2A73B34D0050659B /* CryptoTableViewCell.swift */; };
 		D6C1AFF62A73B9200050659B /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C1AFF52A73B9200050659B /* CryptoCurrency.swift */; };
+		D6C1AFFC2A7402150050659B /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C1AFFB2A7402150050659B /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D6C1AFE92A73B17A0050659B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6C1AFEF2A73B34D0050659B /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 		D6C1AFF52A73B9200050659B /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
+		D6C1AFFB2A7402150050659B /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		D6C1AFF12A73B8660050659B /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				D6C1AFFB2A7402150050659B /* Webservice.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				D6C1AFF02A73B34D0050659B /* CryptoTableViewCell.swift in Sources */,
 				D6C1AFE02A73B17A0050659B /* ViewController.swift in Sources */,
+				D6C1AFFC2A7402150050659B /* Webservice.swift in Sources */,
 				D6C1AFDC2A73B17A0050659B /* AppDelegate.swift in Sources */,
 				D6C1AFF62A73B9200050659B /* CryptoCurrency.swift in Sources */,
 				D6C1AFDE2A73B17A0050659B /* SceneDelegate.swift in Sources */,
