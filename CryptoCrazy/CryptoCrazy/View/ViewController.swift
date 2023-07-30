@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
+    private var cryptoListViewModel: CryptoListViewModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
