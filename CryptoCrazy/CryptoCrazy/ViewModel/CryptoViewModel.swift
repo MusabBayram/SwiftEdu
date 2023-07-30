@@ -18,7 +18,7 @@ struct CryptoListViewModel {
     
     func cryptoAtIndex(_ index: Int) -> CryptoViewModel {
         let crypto = self.cryptoCurrencyList[index]
-        return CryptoViewModel(cryptoCurrency: cryptoß)
+        return CryptoViewModel(cryptoCurrency: crypto)
     }
 }
 
