@@ -15,7 +15,7 @@
 		D6C1AFE52A73B17A0050659B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C1AFE42A73B17A0050659B /* Assets.xcassets */; };
 		D6C1AFE82A73B17A0050659B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C1AFE62A73B17A0050659B /* LaunchScreen.storyboard */; };
 		D6C1AFF02A73B34D0050659B /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C1AFEF2A73B34D0050659B /* CryptoTableViewCell.swift */; };
-		D6C1AFF62A73B9200050659B /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C1AFF52A73B9200050659B /* CryptoCurrency.swift */; };
+		D6C1AFF62A73B9200050659B /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C1AFF52A73B9200050659B /* Crypto.swift */; };
 		D6C1AFFC2A7402150050659B /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C1AFFB2A7402150050659B /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +30,7 @@
 		D6C1AFE72A73B17A0050659B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6C1AFE92A73B17A0050659B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6C1AFEF2A73B34D0050659B /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
-		D6C1AFF52A73B9200050659B /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
+		D6C1AFF52A73B9200050659B /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 		D6C1AFFB2A7402150050659B /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,7 +98,7 @@
 		D6C1AFF32A73B8890050659B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D6C1AFF52A73B9200050659B /* CryptoCurrency.swift */,
+				D6C1AFF52A73B9200050659B /* Crypto.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -187,7 +187,7 @@
 				D6C1AFFC2A7402150050659B /* Webservice.swift in Sources */,
 				D602D73C2A764BD1008EA93E /* CryptoViewModel.swift in Sources */,
 				D6C1AFDC2A73B17A0050659B /* AppDelegate.swift in Sources */,
-				D6C1AFF62A73B9200050659B /* CryptoCurrency.swift in Sources */,
+				D6C1AFF62A73B9200050659B /* Crypto.swift in Sources */,
 				D6C1AFDE2A73B17A0050659B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
