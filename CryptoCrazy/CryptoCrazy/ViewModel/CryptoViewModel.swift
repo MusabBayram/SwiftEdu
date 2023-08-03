@@ -3,14 +3,14 @@
 //  CryptoCrazy
 //
 //  Created by Musab Bahadır Bayram on 30.07.2023.
-//
+// 
 
 import Foundation
 
 
 struct CryptoListViewModel {
     
-    let cryptoCurrencyList: [CryptoCurrency]
+    let cryptoCurrencyList: [Crypto]
     
     func numberOfRowInSection() -> Int {
         return self.cryptoCurrencyList.count
@@ -24,7 +24,7 @@ struct CryptoListViewModel {
 
 struct CryptoViewModel {
     
-    let cryptoCurrency: CryptoCurrency
+    let cryptoCurrency: Crypto
     
     var name: String {
         return self.cryptoCurrency.currency
