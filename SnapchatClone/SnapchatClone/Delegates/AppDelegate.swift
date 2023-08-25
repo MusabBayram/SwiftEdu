@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SnapchatClone
 //
-//  Created by Musab Bahadır Bayram on 17.08.2023.
+//  Created by Musab Bahadır Bayram on 25.07.2023.
 //
 
 import UIKit
