@@ -19,6 +19,7 @@
 		D6CF36452A7133A3000C51A4 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF36442A7133A3000C51A4 /* UploadVC.swift */; };
 		D6CF36472A7133B1000C51A4 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF36462A7133B1000C51A4 /* SettingsVC.swift */; };
 		D6CF36492A713565000C51A4 /* SnapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF36482A713565000C51A4 /* SnapVC.swift */; };
+		D6FF6D732A9CC422004A2409 /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FF6D722A9CC422004A2409 /* UserSingleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		D6CF36442A7133A3000C51A4 /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UploadVC.swift; path = ../UploadVC.swift; sourceTree = "<group>"; };
 		D6CF36462A7133B1000C51A4 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsVC.swift; path = ../SettingsVC.swift; sourceTree = "<group>"; };
 		D6CF36482A713565000C51A4 /* SnapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapVC.swift; sourceTree = "<group>"; };
+		D6FF6D722A9CC422004A2409 /* UserSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		D649DEDB2A6FFA9D003BC339 /* SnapchatClone */ = {
 			isa = PBXGroup;
 			children = (
+				D6FF6D712A9CC3F8004A2409 /* Model */,
 				D6CF36412A7130F8000C51A4 /* Delegates */,
 				D6CF36402A71306F000C51A4 /* ViewControllers */,
 				D649DEE22A6FFA9D003BC339 /* Main.storyboard */,
@@ -120,6 +123,14 @@
 				D649DEDE2A6FFA9D003BC339 /* SceneDelegate.swift */,
 			);
 			path = Delegates;
+			sourceTree = "<group>";
+		};
+		D6FF6D712A9CC3F8004A2409 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6FF6D722A9CC422004A2409 /* UserSingleton.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6FF6D732A9CC422004A2409 /* UserSingleton.swift in Sources */,
 				D6CF36432A71337F000C51A4 /* FeedVC.swift in Sources */,
 				D649DEDD2A6FFA9D003BC339 /* AppDelegate.swift in Sources */,
 				D6CF36452A7133A3000C51A4 /* UploadVC.swift in Sources */,
