@@ -67,7 +67,10 @@ class UploadVC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
                                 if error != nil {
                                     self.makeAlert(title: "Error", message: error?.localizedDescription ?? "Error")
                                 }
-                                
+                                else {
+                                    self.tabBarController?.selectedIndex = 0
+                                    self.uploadImageView.image = UIImage(named: "select.png")
+                                }
                             }
                             
                         }
