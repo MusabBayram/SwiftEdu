@@ -9,13 +9,16 @@ import UIKit
 import FirebaseFirestore
 import FirebaseAuth
 
-class FeedVC: UIViewController {
+class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     
     let fireStoreDatabase = Firestore.firestore()
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableView.delegate = self
+        tableView.dataSource = self
+        
         getUserInfo()
     }
     
