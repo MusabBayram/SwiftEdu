@@ -11,6 +11,7 @@
 		D60B82EC2A8E0DCF00054BB6 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B82EB2A8E0DCF00054BB6 /* SignInVC.swift */; };
 		D60DF7B02A98A1B700214DC9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D60DF7AF2A98A1B700214DC9 /* GoogleService-Info.plist */; };
 		D647C40D2AA0A5F900AF60F1 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647C40C2AA0A5F900AF60F1 /* FeedCell.swift */; };
+		D647C40F2AA0AD0600AF60F1 /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647C40E2AA0AD0600AF60F1 /* Snap.swift */; };
 		D649DEDD2A6FFA9D003BC339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649DEDC2A6FFA9D003BC339 /* AppDelegate.swift */; };
 		D649DEDF2A6FFA9D003BC339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649DEDE2A6FFA9D003BC339 /* SceneDelegate.swift */; };
 		D649DEE42A6FFA9D003BC339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D649DEE22A6FFA9D003BC339 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		D60B82EB2A8E0DCF00054BB6 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		D60DF7AF2A98A1B700214DC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D647C40C2AA0A5F900AF60F1 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		D647C40E2AA0AD0600AF60F1 /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
 		D649DED92A6FFA9D003BC339 /* SnapchatClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapchatClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D649DEDC2A6FFA9D003BC339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D649DEDE2A6FFA9D003BC339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				D6FF6D722A9CC422004A2409 /* UserSingleton.swift */,
+				D647C40E2AA0AD0600AF60F1 /* Snap.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6FF6D732A9CC422004A2409 /* UserSingleton.swift in Sources */,
+				D647C40F2AA0AD0600AF60F1 /* Snap.swift in Sources */,
 				D6CF36432A71337F000C51A4 /* FeedVC.swift in Sources */,
 				D649DEDD2A6FFA9D003BC339 /* AppDelegate.swift in Sources */,
 				D6CF36452A7133A3000C51A4 /* UploadVC.swift in Sources */,
