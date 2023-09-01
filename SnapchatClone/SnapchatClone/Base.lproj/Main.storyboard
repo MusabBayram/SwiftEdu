@@ -171,18 +171,28 @@
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="677"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hov-ow-eWA">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hov-ow-eWA">
                                                     <rect key="frame" x="48" y="35" width="297" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="shL-t3-OUd"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jnq-6R-sc8">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jnq-6R-sc8">
                                                     <rect key="frame" x="20" y="73" width="353" height="573"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="jnq-6R-sc8" firstAttribute="trailing" secondItem="Bxp-1w-ugw" secondAttribute="trailingMargin" id="16i-Wa-hYn"/>
+                                                <constraint firstItem="Hov-ow-eWA" firstAttribute="centerX" secondItem="jnq-6R-sc8" secondAttribute="centerX" id="7zw-zK-9AP"/>
+                                                <constraint firstItem="Hov-ow-eWA" firstAttribute="top" secondItem="Bxp-1w-ugw" secondAttribute="topMargin" constant="24" id="Lmj-y8-GUz"/>
+                                                <constraint firstItem="jnq-6R-sc8" firstAttribute="top" secondItem="Hov-ow-eWA" secondAttribute="bottom" constant="8" id="O3Y-eP-8gX"/>
+                                                <constraint firstItem="jnq-6R-sc8" firstAttribute="leading" secondItem="Bxp-1w-ugw" secondAttribute="leadingMargin" id="jce-u6-WWz"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="jnq-6R-sc8" secondAttribute="bottom" constant="20" id="qDl-jf-tuU"/>
+                                                <constraint firstItem="Hov-ow-eWA" firstAttribute="leading" secondItem="Bxp-1w-ugw" secondAttribute="leadingMargin" constant="28" id="srl-Pi-z88"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="feedImageView" destination="jnq-6R-sc8" id="SoR-xL-k6Z"/>
