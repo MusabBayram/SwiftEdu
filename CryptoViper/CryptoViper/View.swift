@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+
+//talks to -> presenter
+//class, protocol
+
+
