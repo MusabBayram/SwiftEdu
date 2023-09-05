@@ -45,6 +45,7 @@ class CryptoViewController : UIViewController, UITableViewDelegate, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = .yellow
         view.addSubview(tableView)
         view.addSubview(messageLabel)
         tableView.delegate = self
