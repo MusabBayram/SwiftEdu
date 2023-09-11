@@ -59,7 +59,13 @@ class CryptoViewController : UIViewController, UITableViewDelegate, UITableViewD
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        var content = cell.defaultContentConfiguration()
+        content.text = cryptos[indexPath.row].currency
+        content.secondaryText = cryptos[indexPath.row].price
+        cell.contentConfiguration = content
+        cell.backgroundColor = .yellow
+        return cell
     }
     
     
@@ -81,6 +87,13 @@ class CryptoViewController : UIViewController, UITableViewDelegate, UITableViewD
     }
     
     func update(with error: String) {
+        
+        DispatchQueue.main.async {
+            self.cryptos = []
+            self.tableView.isHidden = true
+            self.messageLabel.text = error
+            self.messageLabel.isHidden = false
+        }
         
     }
     
