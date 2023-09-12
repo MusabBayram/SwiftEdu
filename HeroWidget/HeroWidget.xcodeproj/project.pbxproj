@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6626D972AB0563800AADB59 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6626D962AB0563800AADB59 /* CircularImageView.swift */; };
 		D6D059EE2AAEFCB6009118E3 /* HeroWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D059ED2AAEFCB6009118E3 /* HeroWidgetApp.swift */; };
 		D6D059F02AAEFCB6009118E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D059EF2AAEFCB6009118E3 /* ContentView.swift */; };
 		D6D059F22AAEFCB7009118E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D059F12AAEFCB7009118E3 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D6626D962AB0563800AADB59 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
 		D6D059EA2AAEFCB6009118E3 /* HeroWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D059ED2AAEFCB6009118E3 /* HeroWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroWidgetApp.swift; sourceTree = "<group>"; };
 		D6D059EF2AAEFCB6009118E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				D6D059F12AAEFCB7009118E3 /* Assets.xcassets */,
 				D6D059F32AAEFCB7009118E3 /* Preview Content */,
 				D6D059FB2AAEFD49009118E3 /* Superhero.swift */,
+				D6626D962AB0563800AADB59 /* CircularImageView.swift */,
 			);
 			path = HeroWidget;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D059F02AAEFCB6009118E3 /* ContentView.swift in Sources */,
+				D6626D972AB0563800AADB59 /* CircularImageView.swift in Sources */,
 				D6D059EE2AAEFCB6009118E3 /* HeroWidgetApp.swift in Sources */,
 				D6D059FC2AAEFD49009118E3 /* Superhero.swift in Sources */,
 			);
