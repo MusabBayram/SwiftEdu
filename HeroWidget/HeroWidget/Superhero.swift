@@ -17,7 +17,7 @@ struct Superhero : Identifiable, Codable {
     
 }
 
-let superman = Superhero(image: "ironman", name: "Ironman", realName: "Tony Stark")
+let ironman = Superhero(image: "ironman", name: "Ironman", realName: "Tony Stark")
 
 let batman = Superhero(image: "batman", name: "Batman", realName: "Bruce Wayne")
 

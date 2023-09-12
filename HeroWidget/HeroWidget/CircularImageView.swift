@@ -14,6 +14,7 @@ struct CircularImageView: View {
     var body: some View {
         image.resizable().aspectRatio(contentMode: .fit)
             .clipShape(Circle())
+            .padding(10)
             .overlay(Circle()
                 .stroke(Color.red, lineWidth: 10))
             .shadow(radius: 20)
