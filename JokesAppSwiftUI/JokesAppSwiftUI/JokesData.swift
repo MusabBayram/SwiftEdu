@@ -22,4 +22,3 @@ struct Value: Identifiable, Codable {
 }
 
 
-//https://raw.githubusercontent.com/atilsamancioglu/JokesAppJsonData/main/chuck.json
